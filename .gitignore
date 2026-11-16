@@ -1,0 +1,25 @@
+venv/
+__pycache__/
+*.pyc
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets - NEVER commit these, even if they later appear
+.env
+.streamlit/secrets.toml
+
+# Editor/IDE folders
+.vscode/
+.idea/
+
+# Python build/test artifacts
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# NOTE: .streamlit/config.toml IS tracked on purpose - it carries the Royal
+# Insight theme colors and is needed for both local runs and Streamlit Cloud.

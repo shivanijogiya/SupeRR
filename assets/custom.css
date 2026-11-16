@@ -1,0 +1,140 @@
+/* Royal Insight - custom theme (navy / royal pink / gold) */
+
+:root {
+    --ri-navy: #13132B;
+    --ri-navy2: #1A1A38;
+    --ri-pink: #E4007C;
+    --ri-pink-light: #FF7FB8;
+    --ri-gold: #C9A24B;
+    --ri-text: #EDEDF5;
+    --ri-muted: #9797AC;
+}
+
+.stApp {
+    background: linear-gradient(180deg, #0F0F24 0%, #15152E 100%);
+    color: var(--ri-text);
+}
+
+section[data-testid="stSidebar"] {
+    background: #0E0E22;
+    border-right: 1px solid #26264A;
+}
+
+section[data-testid="stSidebar"] .stRadio label {
+    font-size: 0.95rem;
+}
+
+h1, h2, h3, h4 {
+    color: var(--ri-text) !important;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.ri-header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 6px 0 18px 0;
+    border-bottom: 1px solid #26264A;
+    margin-bottom: 18px;
+}
+
+.ri-header .ri-crest {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 35% 30%, var(--ri-pink-light), var(--ri-pink) 60%, var(--ri-navy) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    color: white;
+    font-size: 18px;
+    box-shadow: 0 0 0 3px rgba(228,0,124,0.15);
+}
+
+.ri-header .ri-title {
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: var(--ri-text);
+}
+
+.ri-header .ri-subtitle {
+    font-size: 0.85rem;
+    color: var(--ri-gold);
+    letter-spacing: 0.5px;
+}
+
+.ri-kpi {
+    background: var(--ri-navy2);
+    border: 1px solid #2A2A50;
+    border-radius: 10px;
+    padding: 16px 18px;
+    margin-bottom: 14px;
+}
+
+.ri-kpi-value {
+    font-size: 1.9rem;
+    font-weight: 800;
+    color: var(--ri-pink-light);
+}
+
+.ri-kpi-label {
+    font-size: 0.85rem;
+    color: var(--ri-text);
+    margin-top: 2px;
+}
+
+.ri-kpi-sub {
+    font-size: 0.72rem;
+    color: var(--ri-muted);
+    margin-top: 4px;
+}
+
+div[data-testid="stMetric"] {
+    background: var(--ri-navy2);
+    border: 1px solid #2A2A50;
+    border-radius: 10px;
+    padding: 10px 14px;
+}
+
+div[data-testid="stMetricValue"] {
+    color: var(--ri-pink-light) !important;
+}
+
+.stButton button, .stDownloadButton button {
+    background: var(--ri-pink);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.stButton button:hover, .stDownloadButton button:hover {
+    background: var(--ri-pink-light);
+    color: var(--ri-navy);
+}
+
+div[data-testid="stDataFrame"] {
+    border: 1px solid #2A2A50;
+    border-radius: 8px;
+}
+
+.stTabs [data-baseweb="tab"] {
+    color: var(--ri-muted);
+}
+
+.stTabs [aria-selected="true"] {
+    color: var(--ri-pink-light) !important;
+}
+
+hr {
+    border-color: #26264A;
+}
+
+.ri-footer {
+    text-align: center;
+    color: var(--ri-muted);
+    font-size: 0.75rem;
+    padding: 24px 0 8px 0;
+}

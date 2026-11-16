@@ -1,0 +1,19 @@
+{
+  "threshold_sensitivity_overlap_out_of_10": {
+    "batting": {
+      "wider_top40pct": 0,
+      "base_top15pct": 10,
+      "narrower_top10pct": 6
+    },
+    "bowling": {
+      "wider_top40pct": 2,
+      "base_top15pct": 10,
+      "narrower_top10pct": 4
+    }
+  },
+  "weight_sensitivity": {
+    "batting_mean_top10_overlap_out_of_10": 9.335,
+    "bowling_mean_top10_overlap_out_of_10": 9.41
+  },
+  "notes": "Overlap = number of Top-10 base-case players still present in Top-10 under the alternative setting."
+}

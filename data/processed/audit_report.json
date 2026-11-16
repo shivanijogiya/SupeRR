@@ -1,0 +1,60 @@
+{
+  "raw_shapes": {
+    "competitions": [
+      141,
+      4
+    ],
+    "matches": [
+      883,
+      22
+    ],
+    "teams": [
+      353,
+      3
+    ],
+    "mapping": [
+      6413,
+      6
+    ],
+    "playing_eleven": [
+      28381,
+      9
+    ],
+    "ball_by_ball": [
+      200999,
+      33
+    ]
+  },
+  "dupes": {
+    "ball_by_ball_full_row": 0,
+    "ball_by_ball_key": 0,
+    "matches_id": 0
+  },
+  "missing_matches_in_bbb": 16,
+  "bbb_match_ids_not_in_matches": 0,
+  "matches_missing_comp": 0,
+  "matches_by_competition_type": {
+    "T20I": 512,
+    "IPL": 371
+  },
+  "matches_by_season": {
+    "2022": 168,
+    "2022/23": 12,
+    "2023": 137,
+    "2023/24": 3,
+    "2024": 198,
+    "2024/25": 3,
+    "2025": 216,
+    "2026": 146
+  },
+  "matches_by_result": {
+    "false": 843,
+    "true": 40
+  },
+  "abandoned_matches_excluded": 40,
+  "legal_deliveries": 190756,
+  "wides": 7661,
+  "noballs": 829,
+  "wickets_total": 10795,
+  "wickets_credited_to_bowler": 10190
+}
